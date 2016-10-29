@@ -23,6 +23,7 @@
                                 }
                              ?>
                         </p>
+                        <?php the_post_thumbnail('small-thumbnail'); ?>
                         <div class="excerpt">
                             <p>
                                 <?php the_excerpt(); ?>

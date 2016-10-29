@@ -22,9 +22,12 @@
                                 }
                              ?>
                         </p>
-                        <p><?php the_content(); ?></p>
+                        <p>
+                            <?php the_post_thumbnail(); ?>
+                            <?php the_content(); ?>
+                        </p>
                     </article>
-                
+
 
 
 <?php

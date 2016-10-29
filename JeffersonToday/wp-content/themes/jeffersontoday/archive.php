@@ -49,6 +49,7 @@
                              ?>
                         </p>
                         <p class="excerpt">
+                            <?php the_post_thumbnail('small-thumbnail'); ?>
                             <?php the_excerpt(); ?>
                             <a href="<?php the_permalink(); ?>">Read more</a>
                         </p>
