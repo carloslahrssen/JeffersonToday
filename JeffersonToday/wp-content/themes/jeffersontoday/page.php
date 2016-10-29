@@ -7,7 +7,7 @@
             <article class="post">
                 <h1><?php the_title();?></h1>
                 <p>
-                    <?php the_post_thumbnail(); ?>
+                    <?php the_post_thumbnail('banner-image'); ?>
                     <?php the_content(); ?>
                 </p>
             </article>

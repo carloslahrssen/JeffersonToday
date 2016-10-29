@@ -7,7 +7,7 @@
 
                     <article class="post">
                         <h1><a href="<?php the_permalink();?>"><?php the_title();?></a></h1>
-                        <p class="post-info">
+                        <p class="post-info single-info">
                             <?php the_time('F jS, Y g:i a '); ?> | By <a href=" <?php echo get_author_posts_url(get_the_author_meta('ID')); ?> "><?php the_author(); ?></a> | Posted in
                             <?php
                                 $categories = get_the_category();
@@ -23,7 +23,7 @@
                              ?>
                         </p>
                         <p>
-                            <?php the_post_thumbnail(); ?>
+                            <?php the_post_thumbnail('banner-image'); ?>
                             <?php the_content(); ?>
                         </p>
                     </article>

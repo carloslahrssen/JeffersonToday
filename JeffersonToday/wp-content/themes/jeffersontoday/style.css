@@ -112,6 +112,9 @@ p.post-info a:visited{
     padding: 2px 16px;
 }
 img{
-    width: 100%;
+    max-width: 100%;
     height:auto;
+}
+p.single-info{
+    banner-bottom:none;
 }
