@@ -94,6 +94,7 @@ p.post-info{
     padding-bottom: 5px;
     border-bottom: 2px solid #212121;
     min-width: 100%;
+    margin-bottom: 45px;
 }
 p.post-info a:link,
 p.post-info a:visited{
@@ -117,4 +118,17 @@ img{
 }
 p.single-info{
     banner-bottom:none;
+}
+.has-thumbnail{
+    position:relative;
+    padding-left: 150px;
+    padding-top:200px;
+}
+.post-thumbnail{
+    position: absolute;
+    left:0;
+    float:left;
+    margin-top: 50px;
+    margin-right: 0px;
+    bottom: 0;
 }
