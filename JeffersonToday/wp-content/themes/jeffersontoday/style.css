@@ -8,6 +8,14 @@ Tags: bootstrap
 
 html, body{
     height:100%;
+
+}
+html{
+    background-image: url('background2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 body{
     font-family: Arial, sans-serif;
@@ -79,10 +87,11 @@ footer.site-footer{
 .site-header h1 a{
     font-family: OtterDB;
     font-size: 48px;
-    color:black;
+    color:white;
 }
 .site-header h1 a:hover{
     text-decoration: none;
+    color:white;
 }
 .post h1{
     margin-bottom: 0;
@@ -104,6 +113,7 @@ p.post-info a:visited{
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
+    background-color:rgba(236, 240, 241, 0.8);
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
@@ -131,4 +141,10 @@ p.single-info{
     margin-top: 50px;
     margin-right: 0px;
     bottom: 0;
+}
+
+.card-page{
+    margin-top: 20px;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.5);
+    background-color:rgba(236, 240, 241, 1);
 }
