@@ -3,7 +3,7 @@
 ?>
 <?php
     if ( have_posts() ) :?>
-        <h2><?php
+        <h2 class="subtitle"><?php
                 if(is_category()){
                     single_cat_title();
                 }
